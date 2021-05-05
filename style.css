@@ -264,8 +264,6 @@ html{
 #contactUs-leftForm{
     background: #5E9947;
     flex: 1;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 #contactUs-rightMap{
