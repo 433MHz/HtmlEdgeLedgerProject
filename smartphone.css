@@ -1,0 +1,76 @@
+/* Navigation bar */
+
+#topNavBar{
+    flex-direction: column;
+    height: 12rem;
+
+}
+
+#topNavBar h1{
+    margin-left: 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#topNavBar ul{
+    margin-right: 0;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Showcase section */
+
+#topBigShowcase{
+    height: calc(100vh - 12rem);
+}
+
+#topBigShowcaseBlackBackground{
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 20rem;
+    height: calc(100vh - 12rem);
+}
+
+#topBigShowcaseBlackBackground h2{
+    font-size: 3rem;
+}
+
+
+/* What we do section */
+
+#whatWeDo-containerForBoxes{
+    flex-direction: column;
+}
+
+/* Who we are section */
+
+#whoWeAre{
+    flex-direction: column;
+}
+
+#whoWeAre-leftImage{
+    width: 100%;
+}
+
+#whoWeAre-right{
+    width: 100%;
+}
+
+/* Our clients */
+
+#ourClients-containerForImages{
+    flex-wrap: wrap;
+}
+
+/* Contact us */
+
+#contactUs{
+    flex-direction: column;
+}
+
+/* Footer */
+
+footer{
+    font-size: 1.2rem;
+}
