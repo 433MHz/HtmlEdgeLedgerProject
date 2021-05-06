@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body{
+    --primaryColor: #585858;
+    --secondaryColor: #5E9947;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -27,7 +32,7 @@ html{
     max-width: 100%;
     min-width: 100%;
     height: 6rem;
-    background: #585858;
+    background: var(--primaryColor);
     position: sticky;
     top: 0;
 }
@@ -38,7 +43,7 @@ html{
 }
 
 #topNavBar h1 span{
-    color: #5E9947;
+    color: var(--secondaryColor);
 }
 
 #topNavBar ul{
@@ -58,7 +63,7 @@ html{
 }
 
 #topNavBar ul li a:hover{
-    background: #5E9947;
+    background: var(--secondaryColor);
 }
 
 
@@ -97,7 +102,7 @@ html{
     font-size: 1.4rem;
     padding: 0.75rem 3rem;
     margin-top: 3rem;
-    background: #5E9947;
+    background: var(--secondaryColor);
     border-radius: 0.5rem;
 }
 
@@ -122,11 +127,11 @@ html{
 }
 
 #whatWeDo h2 span{
-    color: #5E9947;
+    color: var(--secondaryColor);
 }
 
 .whatWeDo-boxes-left-round{
-    background: #5E9947;
+    background: var(--secondaryColor);
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
@@ -190,8 +195,8 @@ html{
     flex: 1;
     width: 50vw;
     min-height: 40vh;
-    background: #585858;
     padding: 3rem;
+    background: var(--primaryColor);
 }
 
 #whoWeAre-right ul{
@@ -212,7 +217,7 @@ html{
 }
 
 #whoWeAre h2 span{
-    color: #5E9947;
+    color: --secondaryColor;
 }
 
 
@@ -230,7 +235,7 @@ html{
 }
 
 #ourClients h2 span{
-    color: #5E9947;
+    color: --secondaryColor;
 }
 
 #ourClients-containerForImages{
@@ -262,7 +267,7 @@ html{
 }
 
 #contactUs-leftForm{
-    background: #5E9947;
+    background: var(--secondaryColor);
     flex: 1;
 }
 
@@ -307,7 +312,7 @@ html{
 }
 
 #contactUs-leftForm button{
-    background-color: #585858;
+    background-color: var(--primaryColor);
     color: white;
     margin-top: 1.5rem;
     border: none;
@@ -325,6 +330,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #585858;
+    background: var(--primaryColor);
     font-size: 1.6rem;
 }
